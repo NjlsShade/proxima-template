@@ -21,6 +21,7 @@ modules:
     repos:
       copr:
         - solopasha/hyprland
+        - ilyaz/LACT
     install:
       packages:
         - hyprland
