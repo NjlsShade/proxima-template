@@ -33,6 +33,7 @@ modules:
         - steam
         - nwg-look
         - hyprqt6engine
+        - lact
 #    remove:
 #      packages:
         # example: removing firefox (in favor of the flatpak)
