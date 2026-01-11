@@ -31,6 +31,8 @@ modules:
         - grim
         - slurp
         - steam
+        - nwg-look
+        - hyprqt6engine
 #    remove:
 #      packages:
         # example: removing firefox (in favor of the flatpak)
