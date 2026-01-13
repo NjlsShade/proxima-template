@@ -24,22 +24,33 @@ modules:
         - ilyaz/LACT
     install:
       packages:
+        # Hyprland
         - hyprland
-        - hyprpaper
+        - hyprpaper # Wallpaper
+        - hyprlock # Lockscreen
+        - hyprpolkitagent # Evevation Manager
         - waybar
         - xdg-desktop-portal-hyprland
         - cliphist
-        - grim
-        - slurp
-        - steam
+        - grim # Screenshot
+        - slurp # Screen selection tool (used for grim)
+        # System Settings
         - nwg-look
         - hyprqt6engine
         - lact
+        # Gaming
+        - steam
         - vkBasalt
         - mangohud
+        # File Manager
         - nemo
         - nemo-fileroller
         - nemo-terminal
+        # Login Manager
+        - greetd
+        - greetd-tuigreet
+        - libappindicator-gtk3
+        - virt-manager
 #    remove:
 #      packages:
         # example: removing firefox (in favor of the flatpak)
@@ -65,3 +76,7 @@ modules:
       - scope: user # Also add Flathub user repo, but no user packages
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
+  - type: kargs
+    kargs:
+      - quiet
+      - vconsole.font=ter-v32n
