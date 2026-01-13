@@ -37,6 +37,9 @@ modules:
         - lact
         - vkBasalt
         - mangohud
+        - nemo
+        - nemo-fileroller
+        - nemo-terminal
 #    remove:
 #      packages:
         # example: removing firefox (in favor of the flatpak)
