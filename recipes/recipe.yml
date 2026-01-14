@@ -34,6 +34,7 @@ modules:
         - cliphist
         - grim # Screenshot
         - slurp # Screen selection tool (used for grim)
+        - rofi
         # System Settings
         - nwg-look
         - hyprqt6engine
