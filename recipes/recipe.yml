@@ -54,11 +54,12 @@ modules:
         - greetd-tuigreet
         - libappindicator-gtk3
         - virt-manager
-    replace:
-      - from-repo: rpmfusion
-        packages:
-          - old: ffmpeg-free
-            new: ffmpeg
+#    replace:
+#      - from-repo: rpmfusion
+#        packages:
+#          - old: ffmpeg-free
+#            new: ffmpeg
+
 #    remove:
 #      packages:
         # example: removing firefox (in favor of the flatpak)
