@@ -20,7 +20,7 @@ modules:
   - type: dnf
     repos:
       cleanup: true
-      nonfree: rpmfusion
+#      nonfree: rpmfusion
       copr:
         - solopasha/hyprland
         - ilyaz/LACT
