@@ -54,6 +54,8 @@ modules:
         - greetd-tuigreet
         - libappindicator-gtk3
         - virt-manager
+        # Wayland
+        - waypipe
 #    replace:
 #      - from-repo: rpmfusion
 #        packages:
