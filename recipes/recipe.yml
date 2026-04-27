@@ -37,10 +37,11 @@ modules:
         - grim # Screenshot
         - slurp # Screen selection tool (used for grim)
         - rofi
-        # System Settings
+        # System Tools
         - nwg-look
         - hyprqt6engine
         - lact
+        - ghostty
         # Gaming
         - steam
         - vkBasalt
