@@ -24,6 +24,7 @@ modules:
       copr:
         - solopasha/hyprland
         - ilyaz/LACT
+        - scottames/ghostty
     install:
       packages:
         # Hyprland
