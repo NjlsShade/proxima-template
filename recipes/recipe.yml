@@ -25,6 +25,7 @@ modules:
         - solopasha/hyprland
         - ilyaz/LACT
         - scottames/ghostty
+        - che/nerd-fonts
     install:
       packages:
         # Hyprland
@@ -38,11 +39,12 @@ modules:
         - grim # Screenshot
         - slurp # Screen selection tool (used for grim)
         - rofi
-        # System Tools
+        # System
         - nwg-look
         - hyprqt6engine
         - lact
         - ghostty
+        - nerd-fonts
         # Gaming
         - steam
         - vkBasalt
