@@ -22,7 +22,8 @@ modules:
       cleanup: true
 #      nonfree: rpmfusion
       copr:
-        - solopasha/hyprland
+#        - solopasha/hyprland
+        - lionheartp/Hyprland
         - ilyaz/LACT
         - scottames/ghostty
         - che/nerd-fonts
