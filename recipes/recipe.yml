@@ -40,6 +40,7 @@ modules:
         - grim # Screenshot
         - slurp # Screen selection tool (used for grim)
         - rofi
+        - hyprland-guiutils
         # System
         - nwg-look
         - hyprqt6engine
