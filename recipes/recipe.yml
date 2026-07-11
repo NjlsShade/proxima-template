@@ -47,6 +47,7 @@ modules:
         - lact
         - ghostty
         - nerd-fonts
+        - firewall-config
         # Gaming
         - steam
         - vkBasalt
