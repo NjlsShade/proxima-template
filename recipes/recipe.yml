@@ -20,6 +20,8 @@ modules:
   - type: dnf
     repos:
       cleanup: true
+      files:
++        - https://raw.githubusercontent.com/terrapkg/subatomic-repos/main/terra.repo
 #      nonfree: rpmfusion
       copr:
 #        - solopasha/hyprland
@@ -29,6 +31,10 @@ modules:
         - che/nerd-fonts
     install:
       packages:
+        # Umbriel
+        - umbriel-nightly
+        - noctalia-git
+        - noctalia-greeter
         # Hyprland
         - hyprland
         - hyprpaper # Wallpaper
