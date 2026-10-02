@@ -21,10 +21,9 @@ modules:
     repos:
       cleanup: true
       files:
-+        - https://raw.githubusercontent.com/terrapkg/subatomic-repos/main/terra.repo
+        - https://raw.githubusercontent.com/terrapkg/subatomic-repos/main/terra.repo
 #      nonfree: rpmfusion
       copr:
-#        - solopasha/hyprland
         - lionheartp/Hyprland
         - ilyaz/LACT
         - scottames/ghostty
